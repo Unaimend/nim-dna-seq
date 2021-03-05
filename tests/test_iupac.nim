@@ -71,72 +71,71 @@ proc testIupac()=
       #----------------------------------------------
       #Iupac to char tests
       #----------------------------------------------
-      var n: Nucleotide = Nucleotide(136)
+      var n: Nucleotide = 136.Nucleotide
       var c = n.toChar
       check c == 'A'
 
-      n = Nucleotide(72)
+      n = 72.Nucleotide
       c = n.toChar
       check c == 'G'
       
-      n = Nucleotide(40)
+      n = 40.Nucleotide
       c = n.toChar
       check c == 'C'
       
-      n = Nucleotide(24)
+      n = 24.Nucleotide
       c = n.toChar
       check c == 'T'
 
-      n = Nucleotide(192)
+      n = 192.Nucleotide
       c = n.toChar
       check c == 'R'
       
-      n = Nucleotide(160)
+      n = 160.Nucleotide
       c = n.toChar
       check c == 'M'
       
-      n = Nucleotide(144)
+      n = 144.Nucleotide
       c = n.toChar
       check c == 'W'
       
-      n = Nucleotide(96)
+      n = 96.Nucleotide
       c = n.toChar
       check c == 'S'
       
-      n = Nucleotide(80)
+      n = 80.Nucleotide
       c = n.toChar
       check c == 'K'
       
-      n = Nucleotide(48)
+      n = 48.Nucleotide
       c = n.toChar
       check c == 'Y'
 
-      n = Nucleotide(224)
+      n = 224.Nucleotide
       c = n.toChar
       check c == 'V'
 
-      n = Nucleotide(176)
+      n = 176.Nucleotide
       c = n.toChar
       check c == 'H'
 
-      n = Nucleotide(208)
+      n = 208.Nucleotide
       c = n.toChar
       check c == 'D'
 
-      n = Nucleotide(112)
+      n = 112.Nucleotide
       c = n.toChar
       check c == 'B'
 
-
-      n = Nucleotide(240)
+      n = 240.Nucleotide
       c = n.toChar
       check c == 'N'
 
-      n = Nucleotide(4)
+      n = 4.Nucleotide
       c = n.toChar
       check c == '-'
 
-      n = Nucleotide(2)
+      n = 2.Nucleotide
       c = n.toChar
       check c == '?'
 
